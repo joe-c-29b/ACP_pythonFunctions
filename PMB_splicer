@@ -1,0 +1,5 @@
+def PMB_splicer(df):
+  ser = pd.Series(df['Participant'])
+  PMBs = []
+  for i in ser:
+    
